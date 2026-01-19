@@ -1,0 +1,32 @@
+.new-product_controls{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    width: 100vw;
+    transform: translateX(-25px);
+}
+
+input{
+    border: 1.5px solid blueviolet;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+label{
+    margin-right: 5px;
+}
+
+button{
+    border: 1.5px solid blueviolet;
+    border-radius: 15px;
+}
+
+
+button:hover{
+    color: rgb(0, 255, 68);
+    background-color: rgb(95, 103, 157);
+    transition: ease-in 30ms;
+}
